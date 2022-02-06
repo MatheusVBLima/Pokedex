@@ -53,7 +53,7 @@ function pegaPokemons(quantidade){
 
 document.querySelector('button[name=limpar]')
     .addEventListener('click', () => {
-        quantidade.value = ""
         document.querySelector('.pokemon-boxes').innerHTML = "";
+        document.querySelector('.quantidadePokemons h3').innerHTML = "";
 
 })
